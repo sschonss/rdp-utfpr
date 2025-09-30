@@ -6,17 +6,27 @@ Resolução dos exercícios da disciplina de Resolução de Problemas da UTFPR C
 
 ```
 estruturas-dados-lineares/
-├── ex1-balanceamento/          # Verificação de balanceamento de expressões
-├── ex2-lista-aleatoria/        # Geração de lista aleatória
-├── ex3-valor-corte/            # Remoção por valor de corte
-├── ex4-remove-multiplos/       # Remoção por posições múltiplas
-├── ex5-mais-proximo-media/     # Elemento mais próximo da média
-├── ex6-reduz/                  # Redução de lista
-├── ex7-fatia/                  # Operação de fatia
-├── ex8-inverte/                # Inversão de lista
-├── ex9-amplitude/              # Cálculo de amplitude
-├── ex10-josephus/              # Problema de Josephus
-└── README.md                   # Este arquivo
+├── ex1-balanceamento/           # Verificação de balanceamento de expressões
+├── ex2-lista-aleatoria/         # Geração de lista aleatória
+├── ex3-valor-corte/             # Remoção por valor de corte
+├── ex4-remove-multiplos/        # Remoção por posições múltiplas
+├── ex5-mais-proximo-media/      # Elemento mais próximo da média
+├── ex6-reduz/                   # Redução de lista
+├── ex7-fatia/                   # Criação de fatias
+├── ex8-inverte/                 # Inversão de lista
+├── ex9-amplitude/               # Cálculo de amplitude
+├── ex10-josephus/               # Problema de Josephus
+├── ex11-rotacao-circular/       # Rotação circular de lista
+├── ex12-intersecao-uniao/       # Interseção e união de listas
+├── ex13-substituicao-condicional/ # Substituição condicional
+├── ex14-mapa-frequencias/       # Mapa de frequências
+├── ex15-nesimo-menor-maior/     # N-ésimo menor e maior
+├── ex16-particionamento/        # Particionamento estilo quicksort
+├── ex17-agrupamento-faixas/     # Agrupamento em faixas de valores
+├── ex18-pesquisa-padrao/        # Pesquisa de padrão em lista
+├── ex19-sorteio-sem-reposicao/  # Sorteio sem reposição
+├── ex20-serie-acumulada/        # Série acumulada com operação genérica
+└── README.md                    # Este arquivo
 ```
 
 ## 🚀 Como Executar
