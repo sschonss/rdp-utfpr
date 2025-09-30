@@ -1,0 +1,155 @@
+# Estruturas de Dados Lineares
+
+Resolução dos exercícios da disciplina de Resolução de Problemas da UTFPR Campus Guarapuava, ministrada pelo Prof. Dr. Eleandro Maschio.
+
+## 📁 Estrutura do Projeto
+
+```
+estruturas-dados-lineares/
+├── ex1-balanceamento/          # Verificação de balanceamento de expressões
+├── ex2-lista-aleatoria/        # Geração de lista aleatória
+├── ex3-valor-corte/            # Remoção por valor de corte
+├── ex4-remove-multiplos/       # Remoção por posições múltiplas
+├── ex5-mais-proximo-media/     # Elemento mais próximo da média
+├── ex6-reduz/                  # Redução de lista
+├── ex7-fatia/                  # Operação de fatia
+├── ex8-inverte/                # Inversão de lista
+├── ex9-amplitude/              # Cálculo de amplitude
+├── ex10-josephus/              # Problema de Josephus
+└── README.md                   # Este arquivo
+```
+
+## 🚀 Como Executar
+
+Para cada exercício, navegue até a pasta correspondente e execute:
+
+```bash
+# Exemplo para o exercício 1
+cd ex1-balanceamento
+npx tsx index.ts
+```
+
+Ou com Node.js (se tiver TypeScript configurado globalmente):
+```bash
+tsc *.ts && node index.js
+```
+
+## 📝 Exercícios Implementados
+
+### Exercício 1 - Balanceamento
+**Classe:** `Balanceamento`
+- Verifica se expressões matemáticas estão balanceadas quanto a chaves `{}`, colchetes `[]` e parênteses `()`
+- Considera hierarquia: chaves > colchetes > parênteses
+- Não permite chaves dentro de parênteses
+
+### Exercício 2 - Lista Aleatória
+**Classe:** `ListaAleatoria`
+- Gera lista com `n` elementos inteiros aleatórios (-100 a 100)
+- Implementa método `toString()` personalizado
+- Base para os demais exercícios da lista
+
+### Exercício 3 - Valor de Corte
+**Método:** `removerMenoresQue(valorCorte: number)`
+- Remove todos os elementos menores que o valor especificado
+- Mantém apenas elementos >= valorCorte
+
+### Exercício 4 - Remove Múltiplos
+**Método:** `removeMultiplos(numero: number)`
+- Remove elementos em posições múltiplas do número fornecido
+- Posições são 1-indexed (posição 1, 2, 3...)
+- Se número = 0, lista permanece inalterada
+
+### Exercício 5 - Mais Próximo da Média
+**Método:** `maisProximoDaMedia(): number | null`
+- Retorna o elemento mais próximo da média aritmética
+- Em caso de empate, retorna o primeiro encontrado
+- Inclui método auxiliar `calcularMedia()`
+
+### Exercício 6 - Reduz
+**Método:** `reduz(n: number)`
+- Reduz a lista para conter apenas os primeiros `n` elementos
+- Se `n >= tamanho atual`, não faz alterações
+- Se `n < 0`, trata como 0 (lista vazia)
+
+### Exercício 7 - Fatia
+**Método:** `fatia(inicio: number, fim: number)`
+- Altera lista para conter apenas elementos do índice `inicio` ao `fim` (inclusive)
+- Implementação manual, sem uso de `slice()`
+- Valida e ajusta parâmetros automaticamente
+
+### Exercício 8 - Inverte
+**Método:** `inverte()`
+- Inverte a ordem dos elementos (primeiro vira último, etc.)
+- Implementação manual sem uso de `reverse()`
+- Usa técnica de dois ponteiros para eficiência O(n/2)
+
+### Exercício 9 - Amplitude
+**Método:** `amplitude(): number`
+- Retorna a diferença entre o maior e menor elemento
+- Inclui métodos auxiliares `maiorElemento()` e `menorElemento()`
+- Retorna 0 para listas vazias ou com um elemento
+
+### Exercício 10 - Josephus
+**Classe:** `Josephus`
+- Implementa variação do Problema de Josephus
+- Pessoas em círculo, cada uma escolhe um número
+- Eliminação baseada no número da pessoa eliminada anteriormente
+- Método `jogar(pessoaInicial)` e `jogarComSorteio()`
+
+## 🛠️ Tecnologias Utilizadas
+
+- **TypeScript**: Linguagem principal
+- **Orientação a Objetos**: Paradigma utilizado
+- **Estruturas de Dados Lineares**: Arrays, listas
+
+## 📚 Características da Implementação
+
+### Princípios Seguidos
+- **Orientação a Objetos**: Cada exercício implementado como classe
+- **Sem Bibliotecas Externas**: Implementações manuais dos algoritmos
+- **TypeScript Puro**: Sem dependências adicionais
+- **Métodos Nativos Evitados**: Implementações próprias para `reverse()`, `slice()`, etc.
+
+### Estrutura das Classes
+- Atributos privados para encapsulamento
+- Métodos públicos para interface
+- Métodos auxiliares quando necessário
+- Validação de parâmetros
+- Tratamento de casos extremos
+
+### Casos de Teste
+- Cada exercício inclui arquivo `index.ts` com testes abrangentes
+- Casos normais, extremos e de borda
+- Demonstrações passo-a-passo para melhor compreensão
+
+## 🎯 Objetivos de Aprendizado
+
+1. **Manipulação de Arrays**: Operações básicas e avançadas
+2. **Algoritmos de Busca**: Encontrar elementos com critérios específicos
+3. **Algoritmos de Ordenação**: Conceitos implícitos na organização
+4. **Estruturas de Dados**: Compreensão prática de listas lineares
+5. **Complexidade**: Análise da eficiência dos algoritmos
+6. **Orientação a Objetos**: Aplicação prática do paradigma
+
+## 📋 Como Testar
+
+1. Clone ou baixe o projeto
+2. Navegue até a pasta de um exercício
+3. Execute o arquivo `index.ts`
+4. Observe os resultados e compare com os casos de teste
+
+## 🤝 Contribuição
+
+Este projeto foi desenvolvido como material didático. Sugestões de melhorias são bem-vindas!
+
+## 📄 Licença
+
+Material didático desenvolvido para a disciplina de Resolução de Problemas da UTFPR.
+
+---
+
+**Universidade Tecnológica Federal do Paraná**  
+Campus Guarapuava  
+Tecnologia em Sistemas para Internet  
+Prof. Dr. Eleandro Maschio  
+2024
