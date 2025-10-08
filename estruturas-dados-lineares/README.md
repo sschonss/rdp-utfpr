@@ -31,6 +31,11 @@ estruturas-dados-lineares/
 ├── ex23-janela-deslizante/      # Análise com janela deslizante
 ├── ex24-compressao-rle/         # Compressão Run-Length Encoding
 ├── ex25-maquina-estados/        # Máquina de estados para validação
+├── ex26-josephus-classico/      # Problema de Josephus clássico otimizado
+├── ex27-problema-monge/         # Problema do Monge com redistribuição
+├── ex28-selecao-distancia/      # Seleção baseada em distância euclidiana
+├── ex29-rotacao-circular/       # Rotação circular inteligente com cache
+├── ex30-eliminacao-padrao/      # Eliminação por padrões matemáticos
 └── README.md                    # Este arquivo
 ```
 
@@ -152,6 +157,41 @@ tsc *.ts && node index.js
 2. Navegue até a pasta de um exercício
 3. Execute o arquivo `index.ts`
 4. Observe os resultados e compare com os casos de teste
+
+### Exercício 26 - Josephus Clássico
+
+**Classe:** `JosephusClassico`
+- Implementa o problema de Josephus clássico com fórmula matemática otimizada
+- Suporta números muito grandes (milhões) sem limitações de memória
+- Inclui análise de padrões e predição de sobreviventes
+
+### Exercício 27 - Problema do Monge
+
+**Classe:** `ProblemaMonge`
+- Variação do Josephus onde elementos são redistribuídos baseado em energias
+- Combate por proximidade e regeneração de energia
+- Múltiplas estratégias de eliminação
+
+### Exercício 28 - Seleção por Distância
+
+**Classe:** `SelecaoDistancia`
+- Algoritmos de seleção baseados em distância euclidiana em círculo
+- Múltiplos critérios: vizinho distante, dispersão máxima, Josephus geométrico
+- Análise comparativa de eficiência
+
+### Exercício 29 - Rotação Circular Inteligente
+
+**Classe:** `RotacaoCircular`
+- Rotações otimizadas com cache e predição de padrões
+- Sistema de estatísticas de acesso e performance
+- Busca por rotação e análise de comportamento
+
+### Exercício 30 - Eliminação por Padrão
+
+**Classe:** `EliminacaoPadrao`
+- Eliminação baseada em padrões matemáticos (Fibonacci, primos, perfeitos, etc.)
+- Múltiplas estratégias de combinação de padrões
+- Análise de eficiência e cache de cálculos
 
 ## 🤝 Contribuição
 
