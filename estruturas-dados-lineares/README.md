@@ -26,6 +26,11 @@ estruturas-dados-lineares/
 ├── ex18-pesquisa-padrao/        # Pesquisa de padrão em lista
 ├── ex19-sorteio-sem-reposicao/  # Sorteio sem reposição
 ├── ex20-serie-acumulada/        # Série acumulada com operação genérica
+├── ex21-merge-sort/             # Merge sort adaptado com otimizações
+├── ex22-busca-binaria/          # Busca binária avançada
+├── ex23-janela-deslizante/      # Análise com janela deslizante
+├── ex24-compressao-rle/         # Compressão Run-Length Encoding
+├── ex25-maquina-estados/        # Máquina de estados para validação
 └── README.md                    # Este arquivo
 ```
 
