@@ -37,6 +37,7 @@ estruturas-dados-lineares/
 ├── ex29-rotacao-circular/       # Rotação circular inteligente com cache
 ├── ex30-eliminacao-padrao/      # Eliminação por padrões matemáticos
 ├── ex31-dominos/                # Jogo de dominós com 5 variações
+├── ex32-figurinhas-sheldon/     # As Figurinhas de Sheldon (problema oficial)
 └── README.md                    # Este arquivo
 ```
 
@@ -200,6 +201,13 @@ tsc *.ts && node index.js
 - Sistema completo de jogo de dominós com 5 variações diferentes
 - Encaixe simples, estratégico, em cadeia, com bloqueio e com pontuação
 - Geração de conjuntos padrão, análise de possibilidades e histórico de jogadas
+
+### Exercício 32 - As Figurinhas de Sheldon
+
+**Classe:** `Album`
+- Problema oficial da disciplina do Prof. Dr. Eleandro Maschio
+- Gerenciamento de coleção de figurinhas com identificadores únicos
+- Métodos: `getRepeated()` para repetidas e `getWanted()` para faltantes
 
 ## 🤝 Contribuição
 
