@@ -36,6 +36,7 @@ estruturas-dados-lineares/
 ├── ex28-selecao-distancia/      # Seleção baseada em distância euclidiana
 ├── ex29-rotacao-circular/       # Rotação circular inteligente com cache
 ├── ex30-eliminacao-padrao/      # Eliminação por padrões matemáticos
+├── ex31-dominos/                # Jogo de dominós com 5 variações
 └── README.md                    # Este arquivo
 ```
 
@@ -192,6 +193,13 @@ tsc *.ts && node index.js
 - Eliminação baseada em padrões matemáticos (Fibonacci, primos, perfeitos, etc.)
 - Múltiplas estratégias de combinação de padrões
 - Análise de eficiência e cache de cálculos
+
+### Exercício 31 - Jogo de Dominós
+
+**Classe:** `JogoDominos`
+- Sistema completo de jogo de dominós com 5 variações diferentes
+- Encaixe simples, estratégico, em cadeia, com bloqueio e com pontuação
+- Geração de conjuntos padrão, análise de possibilidades e histórico de jogadas
 
 ## 🤝 Contribuição
 
